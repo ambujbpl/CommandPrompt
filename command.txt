@@ -1,0 +1,87 @@
+    Important command when using Command Prompt(CMD)
+
+---------------------------------------------------------------------------------
+
+1) dir      			{ used for check directories.}
+
+2) cd       			{ Move one dir to another.}
+
+3) cd ..    			{ move one dir back.}
+
+4) cd ../.. 			{ move two dir back.}
+
+5) dir /a   			{ check all file and dir with hidden also.}
+
+6) mkdir dirName 		{ make new dir.}
+
+7) rmdir dirName  		{ Remove empty dir.}
+
+8) copy NUL fileNameWithExtention{ make new file.}
+or echo hello Ambuj > amb.txt 		{ it will also create a new file. but with "hello Ambuj text"}
+
+9) fileName 			{ Open File with it's compatible application software.}
+
+10) dir *.png  			{ watch all file with .png extention.}
+
+11) cls				{ clear screen on cmd.exe}
+
+12) command /?			{ open all related help menu for prefix command example ipconfig /?, dir /? etc.}
+
+13) rmdir /s dirName		{ Remove not empty dir.}
+
+14) Home, End and ctrl[<-,->]	{ Used to help moving curser home-begining, End-end of command and ctrl+left arrow move to left new word.}
+
+15) go My Coputer+system properties+Advance sytem setting+Environment Variable+select path +Edit+"Add your static Path here"{ make absolute path.} 
+
+16) wmic logicaldisk get name	{ all drives name will shown.}
+
+17) driveName:			{ Move one drive to another.}
+
+18) tree			{ show dir as tree view.}
+
+19) color 0B,07,7B, 		{ font color in command prompt. it's combination of two set first is console background and second is text color in command promt. 
+type color (for defualt).}
+
+20) attrib /?  attrib +h fileName { attribute use for file mode +h means add hidden -h remove hidden checkout more using attrib /? (help).}
+
+21) del fileName 		{ used to delete a file.}
+
+22) type fileName.txt  		{ used for see data inside text file.}
+
+23) echo Hello Ambuj > file.txt { it will create file.txt with text "Hello Ambuj", but if file already exist it will gonna overwrite and add "Hello Ambuj" in that existing one.
+
+24) echo Dubey >> file.txt 	{ It will append existinf file.txt text as "Dubey" at end of file.}
+
+25) dir > file.txt  		{ it will print dir command output in file.txt file.}
+
+26) copy file.txt FolderName 	{ it will copy file to destination folder.}
+    xcopy sourcefolderName DestinationFolderName { copy entire folder file(root) to another folder.}
+    xcopy sourceFolder DesFolder /s { it will copy entire data one folder to another folder}
+
+27) move file.txt FolderName 	{ it will move file to the destination folder. you can move some other drive as well write copy or move file.txt d:FilderName}
+
+28) rename folderName NewName   { rename folder name.}
+
+29) ipconfig ipconfig /release 
+
+30) DriverQuery 		{ Its simply provide a list of driver install in your system.}
+
+31) fc /l "C:\Program Files (x86)\example1.doc" "C:\Program Files (x86)\example2.doc" {Use for file comparing.}
+
+32) ping google.com -t 		{ check internet connection.}
+
+33) pathping google.com         { This is a more advanced version of ping that’s useful if there are multiple routers between your PC and the device you’re testing. Like ping, you use this command by typing “pathping” followed by the IP address, but unlike ping, pathping also relays some information about the route the test packets take.}
+
+34) tracert google.com 		{ The “tracert” command is similar to pathping. Once again, type “tracert” followed by the IP address or domain you’d like to trace. .}
+
+35) powercfg		        { Powercfg is a very powerful command for managing and tracking how your computer uses energy. You can use the command “powercfg /hibernate on” and “powercfg /hibernate off” to manage hibernation, and you can also use the command “powercfg /a” to view the power-saving states currently available on your PC.}
+
+36) tasklist			{ check all task list.}
+
+37) sfc/scannow			{ If SFC finds any corrupt or missing files, it will automatically replace them using cached copies kept by Windows for this purpose alone..}
+
+38) taskkill                    { “taskkill -pid” followed by the process ID. .}
+
+39) systeminfo			{ load all system information in console.}
+
+40) nslookup ambujdubey.cf 	{ help Find the IP Address Associated With a Domain.}
