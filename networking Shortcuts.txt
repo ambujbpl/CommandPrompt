@@ -1,0 +1,14 @@
+1)ncpa.cpl             	Network Setting open
+2)firewall.cpl		Firewall Setting Open
+3)services.msc		All Services
+4)regedit            	Registry edit
+5)devmgmt.msc		device manager
+6)Mstsc                 Remote Desktop
+7)inetmgr 		IIS server manager
+
+
+clear temp files
+
+1)temp
+2)%TEMP%
+3)prefetch
